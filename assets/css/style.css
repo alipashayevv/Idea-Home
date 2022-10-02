@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    height:200vh;
+    background-color: brown;
+}
+.logo{
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/logo.png);
+    width: 20%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .info{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list1{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:aliceblue;
+    height: 50px;
+    align-items: center;
+  }
+  .main1{
+    text-transform: uppercase;
+    color:bisque;
+    margin-left: 50px;
+  }
+  hr::before{
+    width: 20%;
+  }
+  hr::after{
+    width: 15%;
+  }
+  .h3{
+    margin-top: 50px;
+  }
+  .main1 p{
+    width: 50%;
+    font-size: smaller;
+  }
+  .property h1{
+    text-transform: uppercase;
+    margin-left: 50px;
+    color: bisque;
+    margin-top: 100px;
+
+  }
+  .property p{
+    margin-left: 50px;
+    color:bisque;
+  }
+  .photopart-1{
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/property-listing-1.jpg) no-repeat;
+    
+  }
+  .photos{
+    height: 400px;
+    width: 100%;
+    
+  }
